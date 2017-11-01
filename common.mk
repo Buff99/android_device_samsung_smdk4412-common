@@ -23,10 +23,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 # Init files
 PRODUCT_COPY_FILES := \
     $(COMMON_PATH)/rootdir/init.smdk4x12.rc:root/init.smdk4x12.rc \
-    $(COMMON_PATH)/rootdir/init.smdk4x12.usb.rc:root/init.smdk4x12.usb.rc \
-    $(COMMON_PATH)/rootdir/init.trace.rc:root/init.trace.rc \
-    $(COMMON_PATH)/rootdir/ueventd.smdk4x12.rc:root/ueventd.smdk4x12.rc \
-    $(COMMON_PATH)/rootdir/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc
+    $(COMMON_PATH)/rootdir/init.trace.rc:root/init.trace.rc
+#    $(COMMON_PATH)/rootdir/ueventd.smdk4x12.rc:root/ueventd.smdk4x12.rc \
+#    $(COMMON_PATH)/rootdir/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc
+#    $(COMMON_PATH)/rootdir/init.smdk4x12.usb.rc:root/init.smdk4x12.usb.rc \
 
 # Audio
 PRODUCT_COPY_FILES += \
