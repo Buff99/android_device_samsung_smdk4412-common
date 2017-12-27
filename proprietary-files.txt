@@ -46,4 +46,6 @@ vendor/firmware/SlimISP_ZD.bin
 vendor/firmware/SlimISP_ZH.bin
 vendor/firmware/SlimISP_ZK.bin
 vendor/firmware/SlimISP_ZM.bin
+vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so
+vendor/lib/libaptXScheduler.so
 vendor/lib/mediadrm/libwvdrmengine.so|8d8f13b2b20db3fdeeca94fa03063d0bf5597718
